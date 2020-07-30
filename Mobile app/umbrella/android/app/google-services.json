@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1080532732501",
+    "firebase_url": "https://umbrella-a5829.firebaseio.com",
+    "project_id": "umbrella-a5829",
+    "storage_bucket": "umbrella-a5829.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080532732501:android:56f532cb734d389434e2dc",
+        "android_client_info": {
+          "package_name": "com.ibm.mobilefirstplatform.clientsdk.android.push"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080532732501-t7gudad0k386lt1kuiaii8qf5376flav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByMSVCvsXtrFUvJYbYgbH_cSMNDX1ZZH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080532732501-t7gudad0k386lt1kuiaii8qf5376flav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080532732501:android:196a845f81f3a68c34e2dc",
+        "android_client_info": {
+          "package_name": "com.vitcc.umbrella"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080532732501-t7gudad0k386lt1kuiaii8qf5376flav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByMSVCvsXtrFUvJYbYgbH_cSMNDX1ZZH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080532732501-t7gudad0k386lt1kuiaii8qf5376flav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
