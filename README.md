@@ -32,7 +32,7 @@ Due to climate change, floods are becoming more frequent and more severe, leadin
 
 ## Demo video
 
-[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+[![Watch the video](Screenshots/thumbnail.jpeg)](https://youtu.be/p0taGbkh4OQ)
 
 ## The architecture
 
