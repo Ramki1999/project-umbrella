@@ -4,7 +4,7 @@ import 'package:umbrella/TabScreens/Home_Weather/src/bloc/weather_bloc.dart';
 import 'package:umbrella/TabScreens/Home_Weather/src/bloc/weather_event.dart';
 import 'package:umbrella/TabScreens/Home_Weather/src/bloc/weather_state.dart';
 import 'package:umbrella/TabScreens/Home_Weather/src/repository/weather_repository.dart';
-import 'package:umbrella/TabScreens/Home_Weather/src/api/api_keys.dart';
+import 'package:umbrella/secret.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:umbrella/TabScreens/Home_Weather/src/widgets/weather_widget.dart';
 import 'package:http/http.dart' as http;

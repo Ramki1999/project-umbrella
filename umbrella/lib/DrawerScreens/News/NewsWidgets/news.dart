@@ -1,14 +1,14 @@
 import 'package:http/http.dart' as http;
 import './article.dart';
 import 'dart:convert';
-import './secret.dart';
+import 'package:umbrella/secret.dart';
 
 class News {
   List<Article> news = [];
 
   Future<void> getNews() async {
     String url =
-        "https://newsapi.org/v2/everything?q=disasters&apiKey=${apiKey}";
+        "https://newsapi.org/v2/everything?q=disasters&apiKey=${ApiKey.NEWS_API_KEY}";
 
     var response = await http.get(url);
 

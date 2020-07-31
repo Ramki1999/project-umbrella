@@ -2,7 +2,7 @@
 
 Call for code 2020 - Climate change project - Umbrella
  - by V Ram Kishan
- - contact vellorermkv123@gmail.com
+ - contact  apj.vision2020.ideas@gmail.com
 
 # PROJECT DESCRIPTION
 

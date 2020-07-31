@@ -3,6 +3,7 @@ import 'package:umbrella/TabScreens/UmbrellaBot/MapSearch.dart';
 import 'package:watson_assistant_v2/watson_assistant_v2.dart';
 import 'package:bubble/bubble.dart';
 import 'package:page_transition/page_transition.dart';
+import 'package:umbrella/secret.dart';
 
 ///Uses IBM Watson Assistant to intelligently answer the users questions on disaster and
 ///Shows them navigation to relief centers for shelter and food
@@ -22,10 +23,9 @@ class _HelpBotState extends State<HelpBot> {
     // TODO: change the credential to yours
     version: '2020-07-25',
     username: 'apikey',
-    apikey: 'ReL0IDwm_ljfc7dyiyHTygIM5f40udwhrlZXv6LaAWq6', //API KEY
-    assistantID: '3fa0b125-821e-4a4b-863f-4a23ccedfc42', //WATSON ASSISTANT ID
-    url:
-        'https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/606b7d08-d2e0-4200-9175-82ac2e33335e/v2',
+    apikey: WatsonKey.WATSON_API_KEY, //API KEY
+    assistantID: WatsonKey.WATSON_ASSISTANT_ID, //WATSON ASSISTANT ID
+    url: WatsonKey.WATSON_URL, //WATSON URL
   );
 
   WatsonAssistantApiV2 watsonAssistant;

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:razorpay_flutter/razorpay_flutter.dart';
 import 'package:toast/toast.dart';
+import 'package:umbrella/secret.dart';
 
 ///Donation Payment gateway using Razor Pay - Secured and has multiple options
 ///In future Additional feature of tracking the transaction can be done as the money is indirectly transferred from one umbrella user to other
@@ -31,7 +32,7 @@ class _DonateState extends State<Donate> {
 
   void openCheckout() {
     var options = {
-      "key": "rzp_test_DuQ6V9s5gCbhDG",
+      "key": ApiKey.RAZORPAY_API_KEY,
       "amount": num.parse(textEditingController.text) * 100,
       "name": "UmbrellaDonate",
       "description": "Payment for some good cause",
