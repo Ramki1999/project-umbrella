@@ -4,13 +4,28 @@
       "intent": "Flood_During",
       "examples": [
         {
-          "text": "what happens during a flood"
+          "text": "What actions do I need to take while in a flood area?"
+        },
+        {
+          "text": "I just received a flood warning"
+        },
+        {
+          "text": "the flood is here"
         },
         {
           "text": "my neighborhood is flooding"
         },
         {
-          "text": "the flood is here"
+          "text": "what happens during a flood"
+        },
+        {
+          "text": "i am stuck in a flood"
+        },
+        {
+          "text": "What do I do during a flood?"
+        },
+        {
+          "text": "How can I survive a flood?"
         },
         {
           "text": "Do I need to evacuate?"
@@ -23,21 +38,6 @@
         },
         {
           "text": "What do I do when a flood is happening?"
-        },
-        {
-          "text": "What actions do I need to take while in a flood area?"
-        },
-        {
-          "text": "i am stuck in a flood"
-        },
-        {
-          "text": "I just received a flood warning"
-        },
-        {
-          "text": "What do I do during a flood?"
-        },
-        {
-          "text": "How can I survive a flood?"
         }
       ],
       "description": "Surviving during a flood"
@@ -46,16 +46,7 @@
       "intent": "Free_Shelter",
       "examples": [
         {
-          "text": "My house destroyed due a Cyclone.What should I do?"
-        },
-        {
-          "text": "Where should Homeless people go during disasters"
-        },
-        {
           "text": "My house destroyed due to floods.I'm homeless."
-        },
-        {
-          "text": "Where can I find public shelter"
         },
         {
           "text": "My house is completely collapsed.What should I do?"
@@ -65,6 +56,18 @@
         },
         {
           "text": "I find homeless people.Show me free shelters."
+        },
+        {
+          "text": "Where can I find public shelter"
+        },
+        {
+          "text": "I lost my home due to a cyclone.Where to go?"
+        },
+        {
+          "text": "My house destroyed due a Cyclone.What should I do?"
+        },
+        {
+          "text": "Where should Homeless people go during disasters"
         }
       ],
       "description": "Give location of free government shelters during disasters"
@@ -73,13 +76,13 @@
       "intent": "Cyclone_After",
       "examples": [
         {
-          "text": "What happens after hurricane?"
+          "text": "Measures to take after hurricane"
         },
         {
           "text": "What happens after cyclone?"
         },
         {
-          "text": "Measures to take after hurricane"
+          "text": "What happens after hurricane?"
         },
         {
           "text": "What measures should I take after a cyclone passed my zone?"
@@ -91,16 +94,16 @@
       "intent": "Wild_Fire_about",
       "examples": [
         {
-          "text": "What are forest fires?"
+          "text": "What are the types of wild fires?"
         },
         {
-          "text": "What happens during a forest fire?"
+          "text": "What are forest fires?"
         },
         {
           "text": "What are wild fires"
         },
         {
-          "text": "What are the types of wild fires?"
+          "text": "What happens during a forest fire?"
         }
       ],
       "description": "what are wild fires"
@@ -109,19 +112,19 @@
       "intent": "Cyclone_Danger",
       "examples": [
         {
-          "text": "Are hurricanes dangerous?"
-        },
-        {
-          "text": "What are the dangers of hurricanes?"
-        },
-        {
-          "text": "Why are hurricanes dangerous?"
+          "text": "Are cyclones dangerous"
         },
         {
           "text": "Why do we have cyclone warnings?"
         },
         {
-          "text": "Are cyclones dangerous"
+          "text": "Why are hurricanes dangerous?"
+        },
+        {
+          "text": "What are the dangers of hurricanes?"
+        },
+        {
+          "text": "Are hurricanes dangerous?"
         }
       ],
       "description": "Danger of cyclones and hurricanes"
@@ -139,10 +142,13 @@
           "text": "What to do if I see hungry helpless people"
         },
         {
-          "text": "I see people starving"
+          "text": "I'm hungry. Where can I find food relief centers?"
         },
         {
           "text": "What if I run out of food during disaster"
+        },
+        {
+          "text": "I see people starving"
         }
       ],
       "description": "Give location about free food during disaster"
@@ -151,13 +157,13 @@
       "intent": "General_Ending",
       "examples": [
         {
-          "text": "Bye now"
-        },
-        {
           "text": "Have a nice day?"
         },
         {
           "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
         },
         {
           "text": "Catch you later"
@@ -289,19 +295,19 @@
       "intent": "Animal_aid",
       "examples": [
         {
+          "text": "I find a cat wounded"
+        },
+        {
           "text": "What should I do if I see helpless animals"
         },
         {
           "text": "I see cows suffering without food"
         },
         {
-          "text": "I find a cat wounded"
+          "text": "I find a animal suffering."
         },
         {
           "text": "A dog is injured due to a disaster"
-        },
-        {
-          "text": "I find a animal suffering."
         }
       ],
       "description": "Query different animal aid centers"
@@ -310,25 +316,25 @@
       "intent": "Flood_Travel",
       "examples": [
         {
+          "text": "Can i bike through the flood?"
+        },
+        {
           "text": "Is it safe to swim in flood waters?"
         },
         {
-          "text": "Should I travel across a flood zone?"
+          "text": "How do I cross a flooded area?"
         },
         {
           "text": "Should I pass through a flooded roadway?"
+        },
+        {
+          "text": "Should I travel across a flood zone?"
         },
         {
           "text": "Should I walk through flood waters"
         },
         {
           "text": "Can I drive though a flooded area?"
-        },
-        {
-          "text": "Can i bike through the flood?"
-        },
-        {
-          "text": "How do I cross a flooded area?"
         }
       ],
       "description": "Passing through a flood zone"
@@ -337,7 +343,7 @@
       "intent": "Flood_Danger",
       "examples": [
         {
-          "text": "Am I safe around floods?"
+          "text": "What can floods do?"
         },
         {
           "text": "Should I be careful around floods?"
@@ -346,10 +352,10 @@
           "text": "Are floods dangerous?"
         },
         {
-          "text": "How much damage can flooding cause?"
+          "text": "Am I safe around floods?"
         },
         {
-          "text": "What can floods do?"
+          "text": "How much damage can flooding cause?"
         },
         {
           "text": "What are floods capable of?"
@@ -373,7 +379,13 @@
       "intent": "General_About_You",
       "examples": [
         {
-          "text": "How old are you?"
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Where were you born?"
         },
         {
           "text": "Where are you from?"
@@ -412,25 +424,19 @@
           "text": "Describe your self"
         },
         {
-          "text": "Where were you born?"
-        },
-        {
-          "text": "Who are you?"
-        },
-        {
           "text": "Do you have a name?"
         },
         {
-          "text": "Do you know who you are?"
-        },
-        {
-          "text": "Why are you here?"
+          "text": "How can I configure you?"
         },
         {
           "text": "How do you function?"
         },
         {
-          "text": "How can I configure you?"
+          "text": "How old are you?"
+        },
+        {
+          "text": "Do you know who you are?"
         }
       ],
       "description": "Request generic personal attributes."
@@ -439,7 +445,7 @@
       "intent": "General_Greetings",
       "examples": [
         {
-          "text": "Good to see you"
+          "text": "Good morning"
         },
         {
           "text": "You there"
@@ -511,7 +517,7 @@
           "text": "Greetings"
         },
         {
-          "text": "Good morning"
+          "text": "Good to see you"
         },
         {
           "text": "Good evening"
@@ -746,7 +752,7 @@
           {
             "values": [
               {
-                "text": "After the cyclone has passed, devastation often continues. Fallen trees can block roads and delay rescues, with medical supplies, or slow the repairs to electrical lines, telephone towers or water pipes, which could put other lives at risk for days or months. Stagnant water can cause the spread of disease, and transportation or communication infrastructure may have been destroyed, hampering clean-up and rescue efforts. Nearly 2 million people have died globally due to tropical cyclones. Despite their devastating effects, tropical cyclones are also beneficial, by potentially bringing rain to dry areas and moving heat from the tropics poleward."
+                "text": "After the cyclone has passed, devastation often continues. Fallen trees can block roads and delay rescues, with medical supplies, or slow the repairs to electrical lines, telephone towers, or water pipes, which could put other lives at risk for days or months. Stagnant water can cause the spread of disease, and transportation or communication infrastructure may have been destroyed, hampering clean-up and rescue efforts. It is often advised to stay at home."
               }
             ],
             "response_type": "text",
