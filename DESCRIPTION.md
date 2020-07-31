@@ -12,7 +12,7 @@ It has the following 7 key goals :
 
 Keeping this as the key goal the project umbrella builds a reliable connection between the three set of people for coordinated work using the modern and best use of technology
 
-![umbrella-idea](idea.jpeg)
+![umbrella-idea](idea.PNG)
 
 ### Technology used -
 
