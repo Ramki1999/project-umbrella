@@ -36,7 +36,7 @@ Due to climate change, floods are becoming more frequent and more severe, leadin
 
 ## The architecture
 
-![Cimate Change/umbrella architecture](architecture.png)
+![Architecture](architecture.PNG)
 
 1. The public user(Localite) interacts with the umbrella app.
 2. The app uses the various third party APIs   
