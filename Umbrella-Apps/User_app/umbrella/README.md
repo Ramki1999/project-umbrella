@@ -8,7 +8,7 @@ Call for code 2020 - Climate change project - Umbrella
 
 A disaster resilience app that connects the Disaster Management authority,
 rescue officers and the local users  for effective disaster management and risk prediction
-that supports community cooperation.The app is built on flutter, a framework by google to build
+that supports community cooperation.This is the app for the public and is built on flutter, a framework by google to build
 native android and IOS apps at ease.
 
 # FILES
