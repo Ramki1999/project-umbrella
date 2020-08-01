@@ -32,7 +32,7 @@ Due to climate change, floods are becoming more frequent and more severe, leadin
 
 ## Demo video
 
-[![Watch the video](Screenshots/thumbnail.jpeg)](https://youtu.be/p0taGbkh4OQ)
+[![Watch the video](Screenshots/thumbnail.jpeg)](https://youtu.be/B3lem55SuNE)
 
 ## The architecture
 
@@ -48,8 +48,8 @@ Due to climate change, floods are becoming more frequent and more severe, leadin
 5. Communication between Public users and rescue team.
 6. The Disaster Response force user interacts with the Respose app to see pending rescue operations.
 7. The State Disaster management authority authenticates and uses the Umbrella DMA web portal to see disaster alerts in their state.
-8. The Node red application sends emergency alerts to the Umbrella user firebase function.
-9. The Node red app that hosts the nodejs server recieves meteorological data and analytics from the meteorological department.
+8. The Node Server sends emergency alerts to the Umbrella user firebase function.
+9. The Node Server recieves meteorological data and analytics from the meteorological department.
 10. Node server to send emergency commands to the response app to perform emergency operation.
 	
 ## Long description
@@ -82,7 +82,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Install the flutter SDK and add it to you path
 
-2. Register the above gievn API services and create a firebase account with a new project and replace the google-services.json file in the [app]() directory
+2. Register the above gievn API services and create a firebase account with a new project and paste the google-services.json file in the app directory
 
 3. Activate the IBM watson assistant resource and import the dialog skill from the [Server](Server/skill-umbrella-bot-dialog-skill.json) folder.Make note of the API Key, Assistant ID and Assistant url.
 
@@ -103,7 +103,7 @@ Try these in the umbrella bot session
 
 ## Live demo
 
-Install the apk file from [here](https://drive.google.com/file/d/1twJmd0w-1ixiijQK6gILVTG_VNoOBJPi/view?usp=sharing) or see a detailed video on what a client side umbrella app can do [here]()
+Install the apk file from [here](https://drive.google.com/file/d/1twJmd0w-1ixiijQK6gILVTG_VNoOBJPi/view?usp=sharing) or see a detailed video on what a client side umbrella app can do [here](https://youtu.be/0l8P-3m9njU)
 
 ## Built with
 
