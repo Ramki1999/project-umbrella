@@ -111,9 +111,9 @@ Install the apk file from [here](https://drive.google.com/file/d/1twJmd0w-1ixiij
 * [IBM Watson](https://www.ibm.com/in-en/cloud/watson-assistant) - To build the interactive chatbot
 * [Firebase Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - To recieve data from the server and send it via FCM
 * [Firebase Cloud Messaging](https://firebase.google.com/products/cloud-messaging?gclid=Cj0KCQjwgo_5BRDuARIsADDEntT36LgedgHS2eDUuQ_RI52la_ePy6SttLnhqPJ9E76jhw7aligHqrMaAitwEALw_wcB) - To send notification to the user
-* [Razorpay](http://www.dropwizard.io/1.0.2/docs/) - A easy all in one payment gateway to make donations
-* [Open-Weather-Map](https://maven.apache.org/) - A api used to perform location based weather analytics
-* [News API](https://rometools.github.io/rome/) - To give weather and disaster related news update
+* [Razorpay](https://dashboard.razorpay.com/app/dashboard) - A easy all in one payment gateway to make donations
+* [Open-Weather-Map](https://openweathermap.org/api) - A api used to perform location based weather analytics
+* [News API](https://newsapi.org/) - To give weather and disaster related news update
 
 ## Authors
 
