@@ -1,5 +1,8 @@
 # PROJECT UMBRELLA
 A user-friendly disaster resilience app that gives alerts to the users ahead of time and prepare them by recommends guidelines during a disaster.It connects the Disaster Management authority, rescue officers and the local users  for effective disaster management and risk prediction. 
+
+![Output demo](Project_Umbrella.gif)
+
 ## Contents
 
 1. [Short description](#short-description)
